@@ -1,0 +1,29 @@
+bin/
+*.db
+*.db-shm
+*.db-wal
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Claude Code local-only project settings
+.claude/settings.local.json
+
+# OS/editor noise
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Go build/test artifacts
+coverage.out
+*.coverprofile
+*.test
+dist/
+tmp/
+
+# Runtime logs
+*.log
